@@ -6,21 +6,21 @@ namespace vsite::oop::v4
 	std::string cockroach::species() const {
 		return "cockroach";
 	}
-	unsigned int cockroach::legs() const {
+	unsigned int insect::legs() const {
 		return 6;
 	}
 
 	std::string sparrow::species() const {
 		return "sparrow";
 	}
-	unsigned int sparrow::legs() const {
+	unsigned int bird::legs() const {
 		return 2;
 	}
 
 	std::string tarantula::species() const {
 		return "tarantula";
 	}
-	unsigned int tarantula::legs() const {
+	unsigned int spider::legs() const {
 		return 8;
 	}
 
